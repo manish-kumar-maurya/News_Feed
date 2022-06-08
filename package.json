@@ -1,0 +1,32 @@
+{
+  "name": "evon_social_api",
+  "version": "1.0.0",
+  "description": "simple social media web api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilumharshana/EvonSocial.git"
+  },
+  "author": "Dilum Harshana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilumharshana/EvonSocial/issues"
+  },
+  "homepage": "https://github.com/dilumharshana/EvonSocial#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.5",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.12",
+    "validator": "^13.7.0"
+  }
+}
